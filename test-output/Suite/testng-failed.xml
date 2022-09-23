@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.genvideo.Reporting.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.genvideo.TestCases.TC_LoginWorkSpace_002">
+        <methods>
+          <include name="verify_Logo_on_WorkSpacePage"/>
+          <include name="selectWorkSpace"/>
+          <include name="setupClass"/>
+          <include name="verifyLoginWorkSpaceTitle"/>
+        </methods>
+      </class> <!-- com.genvideo.TestCases.TC_LoginWorkSpace_002 -->
+      <class name="com.genvideo.TestCases.TC_Login_001">
+        <methods>
+          <include name="verifyForgetPasswordLink"/>
+          <include name="setupClass"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- com.genvideo.TestCases.TC_Login_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

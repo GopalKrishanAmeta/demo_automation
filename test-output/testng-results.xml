@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-23T11:29:50 IST" name="Suite" finished-at="2022-09-23T11:30:37 IST" duration-ms="47639">
+    <groups>
+    </groups>
+    <test started-at="2022-09-23T11:29:50 IST" name="Test" finished-at="2022-09-23T11:30:37 IST" duration-ms="47639">
+      <class name="com.genvideo.TestCases.TC_LoginWorkSpace_002">
+        <test-method signature="verifyLoginWorkSpaceTitle()[pri:1, instance:com.genvideo.TestCases.TC_LoginWorkSpace_002@35cabb2a]" started-at="2022-09-23T11:30:10 IST" name="verifyLoginWorkSpaceTitle" finished-at="2022-09-23T11:30:19 IST" duration-ms="9170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWorkSpaceTitle -->
+        <test-method signature="verify_Logo_on_WorkSpacePage()[pri:2, instance:com.genvideo.TestCases.TC_LoginWorkSpace_002@35cabb2a]" started-at="2022-09-23T11:30:19 IST" name="verify_Logo_on_WorkSpacePage" finished-at="2022-09-23T11:30:21 IST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Logo_on_WorkSpacePage -->
+        <test-method signature="selectWorkSpace()[pri:3, instance:com.genvideo.TestCases.TC_LoginWorkSpace_002@35cabb2a]" started-at="2022-09-23T11:30:21 IST" name="selectWorkSpace" finished-at="2022-09-23T11:30:37 IST" duration-ms="15850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectWorkSpace -->
+      </class> <!-- com.genvideo.TestCases.TC_LoginWorkSpace_002 -->
+      <class name="com.genvideo.TestCases.TC_Login_001">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:com.genvideo.TestCases.TC_Login_001@5158b42f]" started-at="2022-09-23T11:29:47 IST" name="setupClass" finished-at="2022-09-23T11:29:50 IST" duration-ms="2822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method signature="verifyTitle()[pri:1, instance:com.genvideo.TestCases.TC_Login_001@5158b42f]" started-at="2022-09-23T11:29:50 IST" name="verifyTitle" finished-at="2022-09-23T11:29:58 IST" duration-ms="8241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifyLogo()[pri:2, instance:com.genvideo.TestCases.TC_Login_001@5158b42f]" started-at="2022-09-23T11:29:58 IST" name="verifyLogo" finished-at="2022-09-23T11:29:59 IST" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method signature="verifyLogin()[pri:3, instance:com.genvideo.TestCases.TC_Login_001@5158b42f]" started-at="2022-09-23T11:29:59 IST" name="verifyLogin" finished-at="2022-09-23T11:30:09 IST" duration-ms="9792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyForgetPasswordLink()[pri:4, instance:com.genvideo.TestCases.TC_Login_001@5158b42f]" started-at="2022-09-23T11:30:09 IST" name="verifyForgetPasswordLink" finished-at="2022-09-23T11:30:10 IST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgetPasswordLink -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.genvideo.TestCases.TC_Login_001@5158b42f]" started-at="2022-09-23T11:30:38 IST" name="quitDriver" finished-at="2022-09-23T11:30:38 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.genvideo.TestCases.TC_Login_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
